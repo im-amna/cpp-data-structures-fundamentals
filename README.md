@@ -96,6 +96,47 @@ What I learned:
 
 ---
 
+
+## Deque
+
+Deque allows insertion and deletion from both ends.
+
+Functions practiced:
+
+- push_front()
+- push_back()
+- pop_front()
+- pop_back()
+- front()
+- back()
+
+---
+
+## Priority Queue (Max Heap)
+
+Largest element remains at the top.
+
+Functions practiced:
+
+- push()
+- pop()
+- top()
+
+---
+
+## Min Heap
+
+Priority queue configured so the smallest element remains at the top.
+
+Functions practiced:
+
+- push()
+- pop()
+- top()
+
+---
+
+
 ## Set
 
 A set stores only unique values.
@@ -130,6 +171,19 @@ What I learned:
 - Elements remain sorted.
 
 ---
+## Multiset
+
+Stores values in sorted order and allows duplicates.
+
+Functions practiced:
+
+- insert()
+- erase()
+- find()
+- count()
+
+---
+
 
 ## Unordered Set
 
@@ -168,6 +222,19 @@ What I learned:
 
 - Data can be accessed using keys.
 - Keys remain sorted.
+
+---
+
+## Multimap
+
+Stores key-value pairs and allows duplicate keys.
+
+Functions practiced:
+
+- insert()
+- erase()
+- find()
+- count()
 
 ---
 
@@ -271,10 +338,21 @@ Uses the FIFO principle.
 
 ---
 
+## STL Algorithms
+
+### Sorting Ascending
+
+```cpp
+sort(v.begin(), v.end());
+Sorting Descending
+sort(v.begin(), v.end(), greater<int>());
+Reverse
+reverse(v.begin(), v.end());
+
 ## What I Learned
 
 Before this task, I only had basic knowledge of arrays. After completing the STL and Data Structures resources, I learned how vectors, stacks, queues, sets, maps, and hash maps work in C++.
 
-Additional STL API notes are available in APIs.md.
-
 The biggest challenge for me was understanding the difference between ordered and unordered containers. Learning about hashing and time complexity helped me understand why different containers are used for different situations.
+
+Additional STL API notes are available in APIs.md.
