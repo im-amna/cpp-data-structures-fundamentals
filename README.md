@@ -275,4 +275,6 @@ Uses the FIFO principle.
 
 Before this task, I only had basic knowledge of arrays. After completing the STL and Data Structures resources, I learned how vectors, stacks, queues, sets, maps, and hash maps work in C++.
 
+Additional STL API notes are available in APIs.md.
+
 The biggest challenge for me was understanding the difference between ordered and unordered containers. Learning about hashing and time complexity helped me understand why different containers are used for different situations.
